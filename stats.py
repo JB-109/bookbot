@@ -39,3 +39,13 @@ def descending_order(single_string):
         else:
             continue
     return 
+
+def print_def(file_path, single_string, total_strings):
+    print("============ BOOKBOT ============")
+    print(f"Analyzing book found at {file_path}")
+    print("----------- Word Count ----------")
+    print(f"Found {total_strings} total words")
+    print("--------- Character Count -------")
+    descending_order(single_string)
+    print("============= END ===============")
+    return
